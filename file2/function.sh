@@ -1,0 +1,21 @@
+# This is function defination
+
+function is_loyal() {
+
+read -p "Enter girl name:" Girl
+read -p "Enter Love %" Love
+
+if [[ $Girl == "Girl" ]];
+then
+        echo "Boy is loyal"
+elif [[ $Love -ge 100 ]]
+then
+        echo "Boy is Loyal"
+else
+        echo "Boy is not loyal"
+fi
+
+}
+
+# This is function call
+is_loyal
